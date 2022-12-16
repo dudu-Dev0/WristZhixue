@@ -46,6 +46,12 @@
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="本软件旨在让手表上也能用智学网查分\n其实是因为智学网Lite用不了才做的（（\n服务端基于immoses的zhixue_webapi\n为减少服务器成本和提高安全性，下个版本预计使用zhixuewang-python中提供的api（写完当天下午才发现有这个QWQ）"/>
+                android:text="一个在手表上运行的智学网app\n其实是因为智学网Lite用不了才做的（（\n服务端基于immoses的zhixue_webapi\n服务器维护成本高（求赞助qwq"/>
+        <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/alipay"/>
     </LinearLayout>
 </ScrollView>
