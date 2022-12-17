@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="@color/zhixue_green">
+  <group android:scaleX="0.61"
+      android:scaleY="0.61"
+      android:translateX="4.68"
+      android:translateY="4.68">
+      <path android:fillColor="@color/zhixue_green" android:pathData="M20.13,5.41l-1.41,-1.41l-9.19,9.19l-4.25,-4.24l-1.41,1.41l5.66,5.66z"/>
+      <path android:fillColor="@color/zhixue_green" android:pathData="M5,18h14v2h-14z"/>
+  </group>
+</vector>

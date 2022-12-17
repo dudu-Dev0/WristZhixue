@@ -41,7 +41,7 @@ class MarkActivity : AppCompatActivity() {
         val examId = intent.getStringExtra("exam_id")
 
         thread {
-            val response = NetworkUtil.get("${Urls.mark}?usr=$usr&pwd=$pwd&mark=$examId").body.string()
+            val response = NetworkUtil.get("${Urls.mark}?usr=$usr&pwd=$pwd&exam=$examId").body.string()
             runOnUiThread {
                 progressBar.visibility = View.GONE
             }

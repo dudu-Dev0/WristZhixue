@@ -15,7 +15,7 @@
 
     <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="35dp"
             android:layout_marginBottom="5dp"
             android:background="@drawable/zhixue_green_top_circle_corner_background">
 
@@ -26,7 +26,7 @@
                 android:layout_marginLeft="5dp"
                 android:textStyle="bold"
                 android:layout_gravity="center|start"
-                android:textSize="22sp"/>
+                android:textSize="20sp"/>
 
         <TextView
                 android:id="@+id/tv_rank_mark_item"
@@ -41,11 +41,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:textSize="16sp"
+            android:textSize="12sp"
             android:text="得分"/>
 
     <LinearLayout
-            android:layout_margin="4dp"
+            android:layout_marginLeft="4dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
@@ -53,14 +53,14 @@
                 android:id="@+id/tv_score_mark_item"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="30sp"
+                android:textSize="26sp"
                 android:textStyle="bold"/>
 
         <TextView
                 android:text="分"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="14sp"/>
+                android:textSize="12sp"/>
     </LinearLayout>
 
 </LinearLayout>
